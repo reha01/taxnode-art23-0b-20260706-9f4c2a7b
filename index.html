@@ -22,13 +22,14 @@
       color: var(--ink);
       font-family: "IBM Plex Sans", Arial, sans-serif;
       line-height: 1.5;
+      overflow-wrap: anywhere;
     }
     header {
       padding: 36px clamp(18px, 5vw, 72px) 28px;
       border-bottom: 1px solid var(--line);
       background: #fff;
     }
-    main { max-width: 1180px; margin: 0 auto; padding: 26px 18px 48px; }
+    main { max-width: 1180px; margin: 0 auto; padding: 26px 18px 48px; min-width: 0; }
     h1, h2 { font-family: Fraunces, Georgia, serif; margin: 0 0 12px; letter-spacing: 0; }
     h1 { font-size: clamp(2rem, 4vw, 4rem); }
     h2 { font-size: 1.35rem; }
@@ -53,18 +54,19 @@
       font-weight: 700;
       text-transform: uppercase;
       margin-left: 8px;
-      white-space: nowrap;
+      white-space: normal;
     }
     .warn { background: #F8E2D4; color: var(--danger); }
     .official-tag { background: #DDE8F6; color: var(--fiscal); }
     .criterion-tag { background: #F3E4C8; color: var(--criterion); }
     .source-tag { background: #E8ECEA; color: var(--ink); }
-    .item-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+    .item-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; min-width: 0; }
+    .item-head > * { min-width: 0; }
     blockquote { margin: 12px 0; padding-left: 14px; border-left: 3px solid var(--line); color: #314C5A; }
     dl { display: grid; grid-template-columns: 110px 1fr; gap: 6px 12px; }
     dt { font-weight: 700; color: var(--muted); }
     dd { margin: 0; }
-    a { color: var(--fiscal); }
+    a { color: var(--fiscal); overflow-wrap: anywhere; }
     .muted, .empty { color: var(--muted); }
     .feedback a { display: inline-block; margin-right: 10px; color: var(--ink); }
   </style>
