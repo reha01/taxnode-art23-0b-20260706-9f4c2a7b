@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Articulo 23 LIVS - Credito fiscal IVA</title>
+  <style>
+    :root {
+      --ink: #182F3E;
+      --paper: #F4F6F5;
+      --panel: #FFFFFF;
+      --fiscal: #26558E;
+      --criterion: #9A6B1F;
+      --line: #D8DFDC;
+      --danger: #8B2F2F;
+      --muted: #64736E;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "IBM Plex Sans", Arial, sans-serif;
+      line-height: 1.5;
+    }
+    header {
+      padding: 36px clamp(18px, 5vw, 72px) 28px;
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+    }
+    main { max-width: 1180px; margin: 0 auto; padding: 26px 18px 48px; }
+    h1, h2 { font-family: Fraunces, Georgia, serif; margin: 0 0 12px; letter-spacing: 0; }
+    h1 { font-size: clamp(2rem, 4vw, 4rem); }
+    h2 { font-size: 1.35rem; }
+    section { margin: 22px 0; padding: 22px 0; border-top: 1px solid var(--line); }
+    .meta, .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+    .panel, .item {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .rail { border-left: 6px solid var(--fiscal); padding-left: 14px; }
+    .criterion { border-left: 6px solid var(--criterion); }
+    .official { border-left: 6px solid var(--fiscal); }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: .78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-left: 8px;
+      white-space: nowrap;
+    }
+    .warn { background: #F8E2D4; color: var(--danger); }
+    .official-tag { background: #DDE8F6; color: var(--fiscal); }
+    .criterion-tag { background: #F3E4C8; color: var(--criterion); }
+    .source-tag { background: #E8ECEA; color: var(--ink); }
+    .item-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+    blockquote { margin: 12px 0; padding-left: 14px; border-left: 3px solid var(--line); color: #314C5A; }
+    dl { display: grid; grid-template-columns: 110px 1fr; gap: 6px 12px; }
+    dt { font-weight: 700; color: var(--muted); }
+    dd { margin: 0; }
+    a { color: var(--fiscal); }
+    .muted, .empty { color: var(--muted); }
+    .feedback a { display: inline-block; margin-right: 10px; color: var(--ink); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="rail">
+      <span class="tag official-tag">CORPUS REAL · B7 CERRADA</span>
+      <h1>Articulo 23 LIVS - Credito fiscal IVA</h1>
+      <p>Nodo real de credito fiscal IVA con corpus DL 825 completo, fragmentos aprobados y marcas de vigencia/editorial visibles por pieza.</p>
+    </div>
+  </header>
+  <main>
+    <section class="meta">
+      <div class="panel"><h2>Identificacion</h2><p>Norma DL825, articulo 23</p><span class="tag official-tag">oficial</span></div>
+      <div class="panel"><h2>Vigencia</h2><p>requiere_revision</p><p>Ultima revision: 2026-07-05</p><span class="tag warn">requiere revision por pieza</span></div>
+      <div class="panel"><h2>Confianza</h2><p>Las menciones documentales imprecisas no aparecen como citas; codigos F29 se muestran como operativos con marca validar codigo vigente; vigencia normativa queda marcada por pieza.</p><span class="tag source-tag">vacios declarados</span></div>
+    </section>
+
+    <section>
+      <h2>Resumen practico</h2>
+      <div class="panel"><p>El Art. 23 LIVS ordena la procedencia del credito fiscal IVA: relacion con giro o actividad, restricciones por operaciones no gravadas/exentas, proporcionalidad, vehiculos/supermercados, resguardos ante facturas falsas o no fidedignas y acuse de recibo para DTE. La ficha muestra solo criterio aprobado bajo B7 y documentos con href literal del corpus.</p><span class="tag criterion-tag">generado desde corpus real</span></div>
+    </section>
+
+    <section>
+      <h2>Documentos SII relacionados</h2>
+      <p class="muted">Solo aparecen documentos con href literal del corpus y concordancia real. Menciones imprecisas no se muestran como citas.</p>
+      <div class="grid">
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2018/circu5.pdf" target="_blank" rel="noopener">Circular N 5 2018</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">fragmento aprobado</span></div>
+        <p>La clase la cita como resumen sobre vehiculos que dan derecho a credito. Revisión editorial 2026-07-05: número/año no confirmado en corpus local provisto; no publicar como cita documental hasta verificar en grafo_salida/nodos.csv o datos_crudos/dl825/. Revision rol06: confirmado en nodos.csv (circular-5-2018) y aristas.csv concuerda con ART-23; R1 permite cita.</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2021/circu26.pdf" target="_blank" rel="noopener">Circular N 26 2021</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">fragmento aprobado</span></div>
+        <p>La clase la menciona al cerrar la explicacion de ajustes del credito fiscal. Revisión editorial 2026-07-05: número/año no confirmado en corpus local provisto; no publicar como cita documental hasta verificar en grafo_salida/nodos.csv o datos_crudos/dl825/. Revision rol06: confirmado en nodos.csv (circular-26-2021) y aristas.csv concuerda con ART-24; R1 permite cita.</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2026/circu19.pdf" target="_blank" rel="noopener">Circular N 19 2026</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">corpus SII</span></div>
+        <p>Imparte instrucciones sobre exención de IVA contenida en el nuevo N° 7 de la letra A del art. 12 de la LIVS agregado por el art. 90 de la Ley N° 21.806, aplicable a la venta de bienes usados realizada por instituciones de beneficencia y que provengan exclusivamente de donaciones recibidas.</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2026/circu4.pdf" target="_blank" rel="noopener">Circular N 4 2026</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">corpus SII</span></div>
+        <p>Reitera instrucciones sobre el tratamiento tributario de gastos y donaciones asociados a la ocurrencia de catástrofes, así como sobre plazo y procedimiento para dar aviso en caso de pérdidas de existencias en el inventario y pérdida o inutilización fortuita de los libros de contabilidad y otros documentos. (Extracto de Circular publicado en D.OO. 23.01.2026).</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2025/circu64.pdf" target="_blank" rel="noopener">Circular N 64 2025</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">corpus SII</span></div>
+        <p>Imparte instrucciones sobre nuevo régimen tributario especial para comerciantes de ferias libres introducido en la LIVS, por la Ley N° 21.745. (Extracto de Circular publicado en D.O. de 06.12.2025).</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2025/circu39.pdf" target="_blank" rel="noopener">Circular N 39 2025</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">corpus SII</span></div>
+        <p>Imparte instrucciones sobre las modificaciones introducidas por la Ley N° 21.713 a la Ley sobre Impuesto a las Ventas y Servicios en materia de Impuesto al Valor Agregado en las ventas de bienes muebles ubicados en el extranjero. (Extracto de Circular publicado en D.O. 10.05.2025). Modificada por Circular N°60 de 2025.</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2025/circu12.pdf" target="_blank" rel="noopener">Circular N 12 2025</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">corpus SII</span></div>
+        <p>Imparte instrucciones sobre modificaciones incorporadas por la Ley N° 21.713 a diversos artículos de la Ley sobre Impuesto a las Ventas y Servicios. Deja sin efecto las instrucciones contenidas en el N° 6 del Título II de la Circular N° 26 de 2021. Complementa las instrucciones contenidas en la Circular N° 42 de 2020 y en el apartado 3.7.1 del Título II de la Circular N° 61 de 2020.(Extracto de Circular publicado en D.O. de 06.02.2025).</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2024/circu53.pdf" target="_blank" rel="noopener">Circular N 53 2024</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">corpus SII</span></div>
+        <p>Imparte instrucciones en materias tributarias sobre el régimen de donaciones en apoyo a las entidades sin fines de lucro establecido en el Título VIII bis del DL N° 3.063 de 1979, sobre Rentas Municipales; las donaciones efectuadas en conformidad con el art. 69 de la Ley N° 18.681; y las donaciones efectuadas en conformidad con lo dispuesto en el art. 68 de la Ley N° 19.300. Modifica Circular N° 24 de 1993 y deja sin efecto Circular N° 49 de 2022.(Extracto de Circular publicado en D.O. de 28.12.2024).</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2024/circu6.pdf" target="_blank" rel="noopener">Circular N 6 2024</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">corpus SII</span></div>
+        <p>Reitera instrucciones sobre el tratamiento tributario de gastos y donaciones asociados a la ocurrencia de catástrofes, así como sobre plazo y procedimiento para dar aviso en caso de pérdidas de existencias en el inventario y pérdida o inutilización fortuita de los libros de contabilidad y otros documentos. ( Extracto de Circular publicado en D.O. de 07.02.2024).</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2023/circu6.pdf" target="_blank" rel="noopener">Circular N 6 2023</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">corpus SII</span></div>
+        <p>Reitera instrucciones sobre el tratamiento tributario de gastos y donaciones asociados a la ocurrencia de catástrofes. Extracto de Circular publicado en Diario Oficial de 14.02.2023.</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2022/circu49.pdf" target="_blank" rel="noopener">Circular N 49 2022</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">corpus SII</span></div>
+        <p>Imparte instrucciones en materias tributarias sobre el nuevo régimen de donaciones en apoyo a las entidades sin fines de lucro establecido en el Título VIII bis del Decreto Ley N° 3.063 de 1979, sobre Rentas Municipales; las donaciones efectuadas en conformidad con el artículo 69 de la Ley N° 18.681; y las donaciones efectuadas en conformidad con lo dispuesto en el artículo 68 de la Ley N° 19.300. Modifica Circular N° 24 de 1993. Extracto de Circular publicado en Diario Oficial de 21.10.2022. Dejada sin efecto por Circular N° 53 de 2024.</p>
+      </article>
+    
+      <article class="item official">
+        <div class="item-head"><strong><a href="https://www.sii.cl/normativa_legislacion/circulares/2019/circu23.pdf" target="_blank" rel="noopener">Circular N 23 2019</a></strong><span class="tag official-tag">oficial corpus real</span><span class="tag source-tag">corpus SII</span></div>
+        <p>Se modifican instrucciones contenidas en el N° 4.1, de la Circular N° 12, de 18 de marzo de 1987, relativo a los requisitos que deben cumplir los contribuyentes para hacer uso del beneficio contenido en el Art. 29°, de la Ley N° 18.591, modificada por el Art. 392°, de la Ley N° 20.720 (comprador o beneficiario del servicio que tenga la calidad de deudor en un procedimiento concursal de liquidación) (Extracto de Circular publicado en el Diario Oficial de 22.05.2019).</p>
+      </article>
+    </div>
+    </section>
+
+    <section>
+      <h2>Fragmentos de clases publicados</h2>
+      <p class="muted">Fragmentos aprobados bajo B7 rol 06 + acuse del fundador. Publicado en grafo: no.</p>
+      <div class="grid">
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Giros afectos y exentos pueden gatillar proporcionalidad</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado_con_cambios</span>
+        </div>
+        <p>Si un contribuyente combina servicios afectos y exentos, la clase advierte que puede activarse proporcionalidad de IVA.</p>
+        <blockquote>El ejemplo del gimnasio muestra que no basta mirar el giro declarado. Un mismo negocio puede tener ingresos afectos, como acceso a maquinas, y exentos, como ciertas clases dirigidas. Cuando conviven ingresos afectos y exentos, la clase advierte que puede gatillarse proporcionalidad de IVA, por lo que el contribuyente debe separar operaciones y respaldos.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23 N 3 (media)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2026\5-Mayo\Archivos md\Clase IVA gratis_202605.md · "se gatilla la proporcionalidad del IVA"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: media / anclaje_normativo: baja / vigencia: baja</dd>
+        </dl>
+        <ul><li>Usar todo el credito fiscal en negocios con ingresos afectos y exentos.: Reparo por credito fiscal mal determinado.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Credito fiscal exige relacion directa con el giro</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado</span>
+        </div>
+        <p>La clase recalca que las compras, adquisiciones y servicios deben relacionarse con el giro o actividad para usar credito fiscal.</p>
+        <blockquote>La procedencia del credito fiscal no depende solo de que exista una factura con IVA. La compra o servicio debe estar conectado con el giro o actividad del contribuyente, y esa relacion debe poder explicarse si el SII revisa la operacion.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23 N 1 (alta)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2026\5-Mayo\Archivos md\IVA desde 0 clase 3_202605.md · "relacionados con mi giro o actividad"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: alta / vigencia: baja</dd>
+        </dl>
+        <ul><li>Usar credito fiscal sin respaldo de relacion con el giro.: Posible rechazo del credito en revision del SII.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Vehiculos: algunos dan credito sin autorizacion, pero igual requieren justificacion</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado_con_cambios</span>
+        </div>
+        <p>Camionetas, jeep, furgones y otros vehiculos mencionados pueden dar credito sin autorizacion previa, siempre que se justifique su relacion directa con el giro.</p>
+        <blockquote>La profesora distingue vehiculos que, por tipologia, no requieren autorizacion previa del SII para usar el credito fiscal. Aun asi, la defensa practica no es automatica: hay que explicar para que se usa el vehiculo, quien lo usa, cuando, donde y por que su costo es razonable para el negocio.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23 N 4 (alta)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2026\5-Mayo\Archivos md\IVA desde 0 clase 3_202605.md · "diga relacion directa con el giro"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: media / vigencia: baja</dd>
+        </dl>
+        <ul><li>Comprar vehiculos de alto valor o uso mixto sin respaldo funcional.: Fiscalizacion con lupa y posible rechazo del credito fiscal.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Supermercados: el credito depende del vinculo con el giro</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado</span>
+        </div>
+        <p>Los gastos de supermercado no dan credito si no cumplen los requisitos de necesidad/vinculo; podrian aceptarse articulos de escritorio o aseo conectados al giro.</p>
+        <blockquote>La clase aterriza el caso de supermercados: no basta que exista factura. Si la compra corresponde a items como articulos de escritorio o aseo vinculados al giro, podria usarse credito fiscal; si es un consumo ajeno o no recuperable, no corresponde utilizarlo.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23 N 4 (alta)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2026\5-Mayo\Archivos md\IVA desde 0 clase 3_202605.md · "articulos de escritorio, articulos de aseo"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: media / vigencia: baja</dd>
+        </dl>
+        <ul><li>Tomar credito fiscal por gastos de supermercado no vinculados al giro.: Credito no recuperable y posible reparo.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Proveedores irregulares y B39: acreditar pago y realidad de la operacion</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado</span>
+        </div>
+        <p>Para facturas objetadas, falsas o no fidedignas, la clase subraya que el contribuyente debe acreditar pago, trazabilidad y efectividad material de la operacion.</p>
+        <blockquote>El Art. 23 N° 5 aparece como regla de control frente a proveedores irregulares u observaciones como B39. La defensa practica pasa por medios de pago trazables, cuenta bancaria incorporada a la contabilidad, factura y antecedentes que prueben que la operacion existio materialmente. Si el contribuyente participo o conocia la falsedad, la clase advierte que no hay derecho a credito.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23 N 5 (alta)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2026\5-Mayo\Archivos md\IVA desde 0 clase 3_202605.md · "este 23 numero 5"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: alta / vigencia: baja</dd>
+        </dl>
+        <ul><li>No acreditar pago o efectividad material ante una factura observada.: Certificacion de factura falsa/no fidedigna y perdida del credito fiscal.</li><li>Participacion o conocimiento de la falsedad.: Sin derecho a credito y posible exposicion sancionatoria.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Acuse de recibo como requisito adicional para usar credito fiscal</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado_con_cambios</span>
+        </div>
+        <p>La clase trata el acuse de recibo como requisito adicional para asegurar el uso del credito fiscal, con aceptacion automatica si no se rechaza dentro de plazo.</p>
+        <blockquote>Ademas de la relacion con el giro, la clase agrega el acuse de recibo como condicion operativa para utilizar credito fiscal. Si no se rechaza la factura, se entiende aceptada y acusada; la profesora advierte que el periodo del acuse importa para determinar cuando se usa el credito.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23 N 7 (alta)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2026\5-Mayo\Archivos md\IVA desde 0 clase 3_202605.md · "acuse de recibo es un requisito adicional"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: media / vigencia: baja</dd>
+        </dl>
+        <ul><li>Usar el credito en un periodo distinto al del acuse aplicable.: Diferencia o reparo en la declaracion mensual.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Ajustes al credito fiscal: periodo y dos periodos siguientes no cubren olvidos</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado_con_cambios</span>
+        </div>
+        <p>La regla practica de periodo mas dos periodos siguientes se explica como excepcional: procede por retrasos no imputables al contribuyente, no por simple olvido.</p>
+        <blockquote>La clase advierte que la posibilidad de usar credito fiscal en el periodo o los dos periodos siguientes debe entenderse ligada a recepcion o registro tardio por hechos no imputables al contribuyente. Si el contribuyente simplemente olvido usar una DIN o factura, la profesora indica que no corresponde trasladarla de periodo por ese motivo.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 24  (alta)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2026\5-Mayo\Archivos md\IVA desde 0 clase 3_202605.md · "periodo mas los dos periodos tributarios siguientes"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: media / vigencia: baja</dd>
+        </dl>
+        <ul><li>Usar creditos tardios por olvido del contribuyente.: Rechazo del credito trasladado a otro periodo.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Detalle de factura permite controlar credito fiscal indebido</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado_con_cambios</span>
+        </div>
+        <p>El detalle claro de bienes o servicios facturados facilita al SII revisar si el credito fiscal corresponde al giro del receptor.</p>
+        <blockquote>La clase relaciona la exigencia de detallar explicitamente bienes o la naturaleza del servicio con el control del uso indebido de credito fiscal. Si una factura no permite entender que se compro o si aquello no corresponde al giro del receptor, aumenta el riesgo de observacion.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23  (media)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2025\9-Septiembre\Archivos md\Observaciones f29_202509.md · "informar el detalle... de manera explicita"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: media / vigencia: baja</dd>
+        </dl>
+        <ul><li>Aceptar facturas genericas o sin descripcion clara de bienes o servicios.: Mayor exposicion a observacion por credito fiscal no relacionado con el giro.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>W12 obliga a controlar DIN y codigos 535/553</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado_con_cambios</span>
+        </div>
+        <p>La W12 se vincula con credito fiscal por DIN de importaciones del giro o activo fijo y puede originarse en duplicidades.</p>
+        <blockquote>Para W12, la profesora identifica creditos fiscales declarados en codigos 535 o 553 del F29, asociados a declaraciones de ingreso en importaciones del giro o activo fijo. La alerta practica es revisar si la propuesta duplico una DIN, si el contribuyente complemento mal o si el credito declarado no corresponde; si el error afecta remanente, deben rectificarse los periodos posteriores arrastrados.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23  (media)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2025\9-Septiembre\Archivos md\Observaciones f29_202509.md · "la propuesta si lo duplica"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: media / vigencia: baja</dd>
+        </dl>
+        <ul><li>Declarar una DIN duplicada por confiar solo en la propuesta.: Sobredeclaracion de credito fiscal y posible rectificatoria con mayor impuesto.</li><li>No arrastrar la correccion a periodos posteriores con remanente.: Mantener saldos de credito fiscal incorrectos.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Observaciones 39/41 llevan al Art. 23 N 5</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado_con_cambios</span>
+        </div>
+        <p>La observacion 39 se asocia a proveedores irregulares; la 41, a documentos no registrados por el emisor en ventas.</p>
+        <blockquote>La clase distingue dos focos frecuentes: la 39, por compras a proveedores con situacion irregular, y la 41, por credito fiscal declarado con documentos electronicos de terceros que no aparecen registrados por el emisor en el registro de ventas. En ambos casos la regla practica remite al Art. 23 N 5: frente a facturas falsas o no fidedignas, el credito fiscal no procede como regla inicial.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23 N 5 (alta)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2025\9-Septiembre\Archivos md\Observaciones f29_202509.md · "norma famosa del 23 numero 5"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: alta / vigencia: baja</dd>
+        </dl>
+        <ul><li>Usar credito fiscal de facturas cuestionadas sin carpeta probatoria.: No procedencia del credito fiscal y eventual giro de diferencia.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Art. 23 N 5 exige medios de pago trazables</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado</span>
+        </div>
+        <p>Para defender credito fiscal observado, la clase destaca cheque nominativo, vale vista nominativo o transferencia electronica al emisor.</p>
+        <blockquote>El Art. 23 N 5 se presenta como una salida frente a la regla de no procedencia del credito por facturas falsas o no fidedignas. La defensa parte por acreditar pago mediante cheque nominativo, vale vista nominativo o transferencia electronica a nombre del emisor, con antecedentes del RUT, factura, monto y respaldo bancario. El pago en efectivo queda como un riesgo alto porque la clase recalca que no sirve como medio principal bajo esta regla.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23 N 5 (alta)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2025\9-Septiembre\Archivos md\Observaciones f29_202509.md · "Cheque nominativo, vale vista nominativo o transferencia electronica"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: alta / vigencia: baja</dd>
+        </dl>
+        <ul><li>Pagar en efectivo una factura que luego sea observada.: Dificultad para acreditar el derecho a credito fiscal bajo Art. 23 N 5.</li><li>No registrar la cuenta bancaria usada para pagar en la contabilidad.: Debilitamiento de la defensa probatoria ante el SII.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Credito puede defenderse si el IVA fue enterado</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado_con_cambios</span>
+        </div>
+        <p>Si no se cumplen los medios de pago, la clase identifica como ultima salida acreditar que el vendedor entero el IVA.</p>
+        <blockquote>La clase explica una contraexcepcion: aun si el comprador no logra acreditar todos los requisitos de pago, no pierde necesariamente el credito fiscal si prueba que el impuesto fue recargado y enterado efectivamente en arcas fiscales por el vendedor. Pero esa salida desaparece si el comprador conocia o participo en la falsedad de la factura, caso en que la defensa probatoria no salva el credito.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>DL825 art. 23 N 5 (alta)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2025\9-Septiembre\Archivos md\Observaciones f29_202509.md · "no se perdera el derecho a credito fiscal"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: alta / vigencia: baja</dd>
+        </dl>
+        <ul><li>No poder probar que el vendedor declaro y pago el debito.: Perdida de una defensa alternativa del credito fiscal.</li><li>Haber conocido o participado en la falsedad de la factura.: No opera la defensa y puede abrirse riesgo sancionatorio.</li></ul>
+      </article>
+    
+      <article class="item criterion">
+        <div class="item-head">
+          <strong>Maniobras maliciosas con IVA elevan riesgo sancionatorio</strong>
+          <span class="tag criterion-tag">criterio revisado</span>
+          <span class="tag source-tag">aprobado_con_cambios</span>
+        </div>
+        <p>La clase advierte que aumentar creditos o imputaciones maliciosamente puede activar multas y penas del Codigo Tributario.</p>
+        <blockquote>Ademas del pago de diferencias de IVA, la clase marca que ciertos comportamientos pueden tener consecuencia sancionatoria grave: declaraciones falsas, omisiones maliciosas, uso malicioso de facturas, no emision de documentos o uso reiterado de credito fiscal no procedente. La lectura practica es detectar tempranamente si el caso es un error corregible o si hay dolo, falsedad o maniobra organizada que requiere revision legal.</blockquote>
+        <dl>
+          <dt>Anclaje</dt><dd>CT art. 97  (alta)</dd>
+          <dt>Origen</dt><dd>G:\Mi unidad\Apuntes\2025\9-Septiembre\Archivos md\Observaciones f29_202509.md · "hay que tener ojo con este 97.4"</dd>
+          <dt>Revision</dt><dd>2026-07-05 · rol06</dd>
+          <dt>Vigencia</dt><dd>requiere_revision · fecha revision: 2026-07-05</dd>
+          <dt>Confianza</dt><dd>destilado: alta / anclaje_normativo: alta / vigencia: baja</dd>
+        </dl>
+        <ul><li>Tratar como simple rectificatoria un caso con falsedad o maniobra maliciosa.: Subestimar multas, penas y necesidad de asesoria legal.</li></ul>
+      </article>
+    </div>
+    </section>
+
+    <section>
+      <h2>Consultas ancladas o preguntas frecuentes</h2>
+      <div class="grid"><article class="item criterion"><div class="item-head"><strong>Giros afectos y exentos pueden gatillar proporcionalidad</strong><span class="tag criterion-tag">generado desde aprobados</span></div><p>Sirve para detectar contribuyentes mixtos antes de usar creditos fiscales completos.</p></article><article class="item criterion"><div class="item-head"><strong>Credito fiscal exige relacion directa con el giro</strong><span class="tag criterion-tag">generado desde aprobados</span></div><p>Sirve como regla base para revisar si una factura de compra puede incorporarse al F29.</p></article><article class="item criterion"><div class="item-head"><strong>Vehiculos: algunos dan credito sin autorizacion, pero igual requieren justificacion</strong><span class="tag criterion-tag">generado desde aprobados</span></div><p>Ayuda a preparar respaldo de credito fiscal por compra o uso de vehiculos.</p></article></div>
+    </section>
+
+    <section>
+      <h2>Riesgos y errores frecuentes</h2>
+      <div class="panel"><ul><li><strong>alto</strong> · Usar todo el credito fiscal en negocios con ingresos afectos y exentos.: Reparo por credito fiscal mal determinado. <span class="muted">(FRAG-IVA-PROP-0101)</span></li><li><strong>alto</strong> · Usar credito fiscal sin respaldo de relacion con el giro.: Posible rechazo del credito en revision del SII. <span class="muted">(FRAG-IVA-ART23-0001)</span></li><li><strong>alto</strong> · Comprar vehiculos de alto valor o uso mixto sin respaldo funcional.: Fiscalizacion con lupa y posible rechazo del credito fiscal. <span class="muted">(FRAG-IVA-ART23-0002)</span></li><li><strong>medio</strong> · Tomar credito fiscal por gastos de supermercado no vinculados al giro.: Credito no recuperable y posible reparo. <span class="muted">(FRAG-IVA-ART23-0003)</span></li><li><strong>alto</strong> · No acreditar pago o efectividad material ante una factura observada.: Certificacion de factura falsa/no fidedigna y perdida del credito fiscal. <span class="muted">(FRAG-IVA-ART23-0004)</span></li><li><strong>alto</strong> · Participacion o conocimiento de la falsedad.: Sin derecho a credito y posible exposicion sancionatoria. <span class="muted">(FRAG-IVA-ART23-0004)</span></li><li><strong>medio</strong> · Usar el credito en un periodo distinto al del acuse aplicable.: Diferencia o reparo en la declaracion mensual. <span class="muted">(FRAG-IVA-ART23-0005)</span></li><li><strong>medio</strong> · Usar creditos tardios por olvido del contribuyente.: Rechazo del credito trasladado a otro periodo. <span class="muted">(FRAG-IVA-ART23-0006)</span></li><li><strong>medio</strong> · Aceptar facturas genericas o sin descripcion clara de bienes o servicios.: Mayor exposicion a observacion por credito fiscal no relacionado con el giro. <span class="muted">(FRAG-IVA-F29OBS-0002)</span></li><li><strong>alto</strong> · Declarar una DIN duplicada por confiar solo en la propuesta.: Sobredeclaracion de credito fiscal y posible rectificatoria con mayor impuesto. <span class="muted">(FRAG-IVA-F29OBS-0005)</span></li><li><strong>medio</strong> · No arrastrar la correccion a periodos posteriores con remanente.: Mantener saldos de credito fiscal incorrectos. <span class="muted">(FRAG-IVA-F29OBS-0005)</span></li><li><strong>alto</strong> · Usar credito fiscal de facturas cuestionadas sin carpeta probatoria.: No procedencia del credito fiscal y eventual giro de diferencia. <span class="muted">(FRAG-IVA-ART23-OBS-0001)</span></li><li><strong>alto</strong> · Pagar en efectivo una factura que luego sea observada.: Dificultad para acreditar el derecho a credito fiscal bajo Art. 23 N 5. <span class="muted">(FRAG-IVA-ART23-OBS-0002)</span></li><li><strong>alto</strong> · No registrar la cuenta bancaria usada para pagar en la contabilidad.: Debilitamiento de la defensa probatoria ante el SII. <span class="muted">(FRAG-IVA-ART23-OBS-0002)</span></li><li><strong>alto</strong> · No poder probar que el vendedor declaro y pago el debito.: Perdida de una defensa alternativa del credito fiscal. <span class="muted">(FRAG-IVA-ART23-OBS-0003)</span></li><li><strong>alto</strong> · Haber conocido o participado en la falsedad de la factura.: No opera la defensa y puede abrirse riesgo sancionatorio. <span class="muted">(FRAG-IVA-ART23-OBS-0003)</span></li><li><strong>alto</strong> · Tratar como simple rectificatoria un caso con falsedad o maniobra maliciosa.: Subestimar multas, penas y necesidad de asesoria legal. <span class="muted">(FRAG-IVA-CT97-0001)</span></li></ul><span class="tag criterion-tag">criterio revisado</span></div>
+    </section>
+
+    <section>
+      <h2>Formularios relacionados</h2>
+      <div class="panel"><ul><li><strong>F29</strong> codigo s/d · determinacion de credito fiscal en operaciones afectas y exentas <span class="tag warn">validar codigo vigente</span></li><li><strong>F29</strong> codigo 535 · credito fiscal por declaraciones de ingreso de importaciones <span class="tag warn">validar codigo vigente</span></li><li><strong>F29</strong> codigo 553 · credito fiscal por importaciones de activo fijo <span class="tag warn">validar codigo vigente</span></li><li><strong>F29</strong> codigo W12 · observacion de credito fiscal declarado por DIN <span class="tag warn">validar codigo vigente</span></li><li><strong>F29</strong> codigo 39 · compras a proveedores con situacion irregular <span class="tag warn">validar codigo vigente</span></li><li><strong>F29</strong> codigo 41 · documentos de terceros no registrados por el emisor en ventas <span class="tag warn">validar codigo vigente</span></li></ul><span class="tag official-tag">operativo</span></div>
+    </section>
+
+    <section>
+      <h2>Origen y trazabilidad</h2>
+      <div class="panel">
+        <p>Paquetes usados: G:\Mi unidad\00_apps_agents\01_taxnode\pipeline_editorial\destilado\_aprobados\DEST-IVA-CLASE-GRATIS-001.json, G:\Mi unidad\00_apps_agents\01_taxnode\pipeline_editorial\destilado\_aprobados\DEST-IVA-CREDITO-FISCAL-001.json, G:\Mi unidad\00_apps_agents\01_taxnode\pipeline_editorial\destilado\_aprobados\DEST-IVA-F29-OBSERVACIONES-001.json</p>
+        <p>Corpus base: 3713 nodos y 6735 aristas. Capa fragmentos: 32 nodos y 92 aristas.</p>
+        <p>Fragmentos Art. 23 mostrados: 13. Documentos oficiales mostrados: 12.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Conteos del grafo</h2>
+      <div class="grid">
+        <div class="panel"><h2>Nodos corpus</h2><ul><li>articulo: 106</li><li>circular: 410</li><li>oficio: 2093</li><li>resolucion: 1104</li></ul></div>
+        <div class="panel"><h2>Aristas corpus</h2><ul><li>COMPLEMENTA: 74</li><li>CONCUERDA_CON: 6507</li><li>DEROGA: 28</li><li>MODIFICA: 116</li><li>REEMPLAZA: 10</li></ul></div>
+        <div class="panel"><h2>Nodos fragmentos</h2><ul><li>Fragmento: 32</li></ul></div>
+        <div class="panel"><h2>Aristas fragmentos</h2><ul><li>ADVIERTE_RIESGO: 1</li><li>ANTECEDENTE_HISTORICO: 1</li><li>APLICA: 2</li><li>APLICA_A: 1</li><li>CONDICIONA_EXENCION: 1</li><li>CONTEXTUALIZA: 1</li><li>CONTEXTUALIZA_OPERACION_F29: 2</li><li>CRUZA_CON: 6</li><li>EXENCION_MENCIONADA: 1</li><li>EXPLICA: 19</li><li>EXPLICA_BASE_IMPONIBLE: 1</li><li>EXPLICA_TASA: 1</li><li>MENCIONA_DOCUMENTO: 9</li><li>PUEDE_AFECTAR: 1</li><li>PUEDE_CRUZAR: 1</li><li>PUEDE_IMPLICAR_RIESGO: 2</li><li>RELACIONADO_CON_FORMULARIO: 37</li><li>SE_DECLARA_EN: 5</li></ul></div>
+      </div>
+    </section>
+
+    <section class="feedback">
+      <h2>Feedback</h2>
+      <div class="panel">
+        <a href="mailto:revision@taxnode.local?subject=Feedback%20Ficha%20Art%2023&body=Util">Util</a>
+        <a href="mailto:revision@taxnode.local?subject=Feedback%20Ficha%20Art%2023&body=Confuso">Confuso</a>
+        <a href="mailto:revision@taxnode.local?subject=Feedback%20Ficha%20Art%2023&body=Revisar">Revisar</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
